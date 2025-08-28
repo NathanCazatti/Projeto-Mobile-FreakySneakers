@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    margin: auto;
+    padding: 4px;
+    width: 100%;
+    height: 17vh;
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    font-family: "Helvetica Now Text", Helvetica, Arial, sans-serif;
+}
+.navbar-container{
+    width: 100%;
+    height: 17vh;
+    display: flex;
+    margin: auto;
+}
+.logo{
+    width: auto;
+    height: 100%;
+}
+.navbar-menu{
+    list-style: none;
+    display: flex;
+    gap: 4vh;
+    align-items: center;
+    margin-left: 30vh;
+}
+.navbar-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+.navbar-menu a:hover{
+    color: rgb(104, 104, 104);
+    font-size: 20px;
+}
+.painel-area{
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+    padding: 1vh;
+    margin-left: 6vh;
+}
+.search{
+    border-radius: 40px;
+    border: none;
+    width: 45vh;
+    height: 5vh;
+    padding: 1vh;
+}
+.cart-icon{
+    width: 4vh;
+    height: auto;
+}
+.user-icon{
+    width: 5vh;
+    height: auto;
+}
